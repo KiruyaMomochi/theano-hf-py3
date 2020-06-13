@@ -2,6 +2,18 @@
 
 This is a Python 3 verson of [boulanni/theano-hf](https://github.com/boulanni/theano-hf).
 
+## Install
+
+```bash
+pip install --upgrade theano-hf
+```
+
+## Usage
+
+```python
+import theano_hf
+```
+
 ## Original Description
 
 I wrapped my Hessian-free code in a generic class, usable as a black-box to train your models if you can provide the cost function as a Theano expression.
