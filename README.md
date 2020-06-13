@@ -4,10 +4,10 @@ This is a Python 3 verson of [boulanni/theano-hf](https://github.com/boulanni/th
 
 ## Original Description
 
-```
 I wrapped my Hessian-free code in a generic class, usable as a black-box to train your models if you can provide the cost function as a Theano expression.
 
 It includes all the details in Martens (ICML 2010) and Martens & Sutskever (ICML 2011) crucial to make it work:
+
 - Tikhonov damping with the Levenberg-Marquardt heuristics,
 - Gauss-Newton matrix products (you specify an Theano expression `s` to section your computational graph in 2),
 - Proper handling of batches and mini-batches (an example SequenceDataset class is provided for variable-length input)
@@ -28,8 +28,9 @@ https://github.com/boulanni/theano-hf
 
 If you use this software for academic research, please cite the following paper:
 
+```
 [1] N. Boulanger-Lewandowski, Y. Bengio and P. Vincent, "Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription", Proc. ICML 29, 2012.
+```
 
 Author: Nicolas Boulanger-Lewandowski
 University of Montreal, 2012
-```
