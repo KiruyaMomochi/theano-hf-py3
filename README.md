@@ -1,4 +1,10 @@
+# Theano-hf-py3
 
+This is a Python 3 verson of [boulanni/theano-hf](https://github.com/boulanni/theano-hf).
+
+## Original Description
+
+```
 I wrapped my Hessian-free code in a generic class, usable as a black-box to train your models if you can provide the cost function as a Theano expression.
 
 It includes all the details in Martens (ICML 2010) and Martens & Sutskever (ICML 2011) crucial to make it work:
@@ -26,3 +32,4 @@ If you use this software for academic research, please cite the following paper:
 
 Author: Nicolas Boulanger-Lewandowski
 University of Montreal, 2012
+```
